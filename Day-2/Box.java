@@ -7,6 +7,7 @@ class Box{
 		this.width = width;
 		this.breadth = breadth;	
 	}
+	
 	float getVolume(){
 		float vol = height*width*breadth;
 		return vol;
